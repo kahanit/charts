@@ -49,3 +49,9 @@ metrics:
 3. `helm package redis-cluster`
 4. `helm push redis-cluster-<version>.tgz oci://registry-1.docker.io/kahanit`
 5. Update the version in the table above.
+
+## License
+
+Apache License 2.0, see `LICENSE`. The `redis-cluster` chart is derived from
+Bitnami's chart (Copyright Broadcom, Inc., Apache-2.0); its files keep their
+original copyright headers.
